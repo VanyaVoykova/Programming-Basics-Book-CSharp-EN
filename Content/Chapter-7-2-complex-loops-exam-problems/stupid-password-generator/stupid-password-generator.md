@@ -1,17 +1,17 @@
 # Problem: Dumb Passwords Generator
 
 Write a program that enters two integers **n** and **l** and generates in alphabetical order all possible  **"dumb" passwords** that consist of the following **5 characters**:
--	Character 1: digit from **1** to **n**.
--	Character 2: digit from **1** to **n**.
--	Character 3: small letter among the first **l** letters of the Latin alphabet.
--	Character 4: small letter among the first **l** letters of the Latin alphabet.
--	Character 5: digit from **1** to **n, bigger than first 2 digits**.
+-	Character 1: a digit from **1** to **n**.
+-	Character 2: a digit from **1** to **n**.
+-	Character 3: a small letter among the first **l** letters of the Latin alphabet.
+-	Character 4: a small letter among the first **l** letters of the Latin alphabet.
+-	Character 5: a digit from **1** to **n, greater than first 2 digits**.
 
-## Input Data
+## Input
 
 The input is read from the console and consists of **two integers: n** and **l** within the range [**1 … 9**], each on a single line.
 
-## Output Data
+## Output
 
 Print on the console **all "dumb" passwords in alphabetical order**, separated by **space**.
 
@@ -29,13 +29,13 @@ Print on the console **all "dumb" passwords in alphabetical order**, separated b
 
 We can split the solution of the problem into 3 parts:
 
-* **Reading the input** – in the current problem this includes reading two numbers **`n`** and **`l`**, each on a single line.
-* **Processing the input data** – using of nested loops to iterate through every possible symbol for each of the five password symbols.
-* **Printing the output** – printing every "dumb" password that meets the  requirements.
+* **Read the input** – for the current problem this consists of reading two numbers **`n`** and **`l`**, each on a single line.
+* **Process the input** – use nested loops to iterate through every possible symbol for each of the five password symbols.
+* **Print the result** – print every "dumb" password that meets the  requirements.
 
-### Reading the Input Data
+### Read the Input
 
-For **reading** of **input** data we will declare two integer variables **`int`**: **`n`** and **`l`**.
+To **read** the **input** we will declare two integer variables **`int`**: **`n`** and **`l`**.
 
 ![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-1.png)
 

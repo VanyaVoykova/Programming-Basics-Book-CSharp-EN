@@ -1,6 +1,6 @@
 # Problem: Magic Numbers
 
-Write a program that enters a single integer **magic** number and produces all possible **6-digit numbers** for which the product of their digits is equal to the magical number.
+Write a program that enters a **magic** integer number and generates all possible **6-digit numbers** for which the product of their digits is equal to the magical number.
 
 Example: "Magic number" &rarr; 2
 -	111112 &rarr; 1 \* 1 \* 1 \* 1 \* 1 \* 2 = 2
@@ -10,11 +10,11 @@ Example: "Magic number" &rarr; 2
 -	121111 &rarr; 1 \* 2 \* 1 \* 1 \* 1 \* 1 = 2
 -	211111 &rarr; 2 \* 1 \* 1 \* 1 \* 1 \* 1 = 2
 
-## Input Data
+## Input
 
 The input is read from the console and consists of **one integer** within the range [**1 … 600 000**].
 
-## Output Data
+## Output
 
 Print on the console **all magic numbers**, separated by **space**.
 

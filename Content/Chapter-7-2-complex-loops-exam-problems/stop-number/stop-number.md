@@ -1,6 +1,6 @@
 # Problem: Stop Number
 
-Write a program that prints on the console all numbers from **N** to **M**, that are **divisible by 2** and **3 without reminder**, in **reversed order**. We will read from the console one additional "stop" number – **S**. If any of the numbers divisible by 2 and 3 **is equal to the stop number, it should not be printed** and the program should end. **Otherwise print all numbers up to N** that meet the condition.
+Write a program that prints on the console all numbers from **N** to **M**, that are **divisible by 2** and **3 without remainder**, in **reversed order**. We will read from the console one additional "stop" number – **S**. If any of the numbers divisible by 2 and 3 **is equal to the stop number, it should not be printed** and the program should end. **Otherwise print all numbers up to N** that meet the condition.
 
 ## Input
 
@@ -17,11 +17,11 @@ Print on the console, on a single line, all numbers that meet the condition, sep
 
 | Input | Output | Comments |
 | --- | --- | --- |
-|1<br>30<br>15|30 24 18 12 6|The numbers from 30 to 1 that are divisible by both 2 and 3 without reminder are: 30, 24, 18, 12 and 6. The number 15 **is not equal** to any of them, so the sequence **continues**.|
+|1<br>30<br>15|30 24 18 12 6|The numbers from 30 to 1 that are divisible by both 2 and 3 without remainder are: 30, 24, 18, 12 and 6. The number 15 **is not equal** to any of them, so the sequence **continues**.|
 
 | Input | Output | Comments |
 | --- | --- | --- |
-|1<br>36<br>12|36 30 24 18|The numbers from 36 to 1, that are divisible by both 2 and 3 without reminder are: 36, 30, 24, 18, 12 and 6. The number 12 **is equal** to the stop number, so **we stop at 18**.|
+|1<br>36<br>12|36 30 24 18|The numbers from 36 to 1, that are divisible by both 2 and 3 without remainder are: 36, 30, 24, 18, 12 and 6. The number 12 **is equal** to the stop number, so **we stop at 18**.|
 
 | Input | Output |
 | --- | --- |
@@ -41,7 +41,7 @@ We are also familiar with the **second** part – the initialization of a **`for
 
 ![](/assets/chapter-7-exam-preparation-images/04.stop-number-1.png)
 
-After we have initialized the **`for`** loop, it is time for the **third** part of the problem – to **check** the condition if the given **number is divisible by both 2 and 3 without reminder**. We will do this by using one simple **`if`** condition that we will let the reader construct themselves.
+After we have initialized the **`for`** loop, it is time for the **third** part of the problem – to **check** the condition if the given **number is divisible by both 2 and 3 without remainder**. We will do this by using one simple **`if`** condition that we will let the reader construct themselves.
 
 The other **tricky** part in this problem is that, apart from the check above, we need an **additional** one – whether the **number is equal to the "stop" number** entered from the console on the third line. To reach this check, the number we're checking has to pass the check above. That's why we add another **`if`** statement **nested in the previous one**. If the condition is **true**, we have to stop printing. We can achieve this with the **`break`** operator which will lead us **out** of the **`for`** loop.
  

@@ -1,6 +1,6 @@
 # Chapter 7.2. More Complex Loops – Exam Problems
 
-In the previous chapter we learned  **how to execute** a block of commands **more than once** using a **for** loop. To improve our knowledge, let's solve some **more complicated problems with loops**, given at the exams in SoftUni.
+In the previous chapter we learned  **how to execute** a block of commands **more than once** using a **for** loop. To improve our knowledge, let's solve some **more complicated problems with loops**, given at exams in SoftUni.
 
 ## More Complex Loops – Quick Review
 
